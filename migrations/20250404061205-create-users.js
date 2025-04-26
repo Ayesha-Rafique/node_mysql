@@ -23,7 +23,7 @@ module.exports = {
         primaryKey: true,
         allowNull: false,
       },
-      name: {
+      name: {  
         type: Sequelize.STRING,
         allowNull: false,
       },
