@@ -8,6 +8,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/auth", require("./Routes/authRoutes"));
+app.use("/api/properties", require("./Routes/propertyRoutes"));
 
 // Sync DB, then start server
 sequelize.sync({ alter: true })
